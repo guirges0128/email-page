@@ -68,7 +68,6 @@
       .button {
         background-color: #222;
         color: #fff;
-        margin-left: 14rem;
         text-decoration: none;
         padding: 12px 20px;
         border-radius: 5px;
@@ -100,6 +99,41 @@
         font-size: 15px;
         line-height: 15px;
       }
+
+      #movieHero {
+        text-align: center;
+      }
+
+      .two-columns.last {
+        padding: 35px 0;
+      }
+
+      .two-columns .padding {
+        padding: 20px;
+      }
+
+      .two-columns .content {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+      }
+      @media (max-width: 616px) {
+        .socialMedia {
+          padding-left: 95px;
+        }
+        #mainTitle {
+          padding-left: 40px;
+        }
+        .three-columns {
+          text-align: center;
+        }
+        #membersContent {
+          text-align: center;
+        }
+        #movieHero {
+          text-align: center;
+        }
+      }
     </style>
   </head>
   <body>
@@ -118,6 +152,7 @@
                       <td style="padding: 0 22px 10px">
                         <a
                           href="#"
+                          id="mainTitle"
                           style="
                             text-decoration: none;
                             color: #222;
@@ -184,7 +219,7 @@
           <td style="padding: 20px 15px 50px">
             <table width="100%">
               <tr>
-                <td>
+                <td id="movieHero">
                   <h3>Check out the hottest movies & more</h3>
                   <p
                     style="
@@ -199,7 +234,7 @@
                     adipisci vitae quod, nostrum explicabo est. Iure, magni eos.
                     Distinctio fugiat sapiente quae recusandae quisquam.
                   </p>
-                  <a href="#" class="button">Click Here</a>
+                  <a href="#" class="button" id="firstButton">Click Here</a>
                 </td>
               </tr>
             </table>
@@ -303,6 +338,134 @@
                       </td>
                     </tr>
                   </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td height="2" style="background-color: #000"></td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="two-columns last">
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td>
+                              <a href=""
+                                ><img
+                                  src="./images/jon-tyson-A-obUh61bKw-unsplash.jpg"
+                                  alt=""
+                                  width="260px"
+                              /></a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="column">
+                    <tr>
+                      <td class="padding">
+                        <table class="content">
+                          <tr>
+                            <td id="membersContent">
+                              <h4>Join our exclusive members club</h4>
+                              <p style="padding-bottom: 20px">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. A atque modi, dolorum
+                                consequatur, nam nihil, porro dolor alias maxime
+                                odit praesentium numquam minima provident sit!
+                                Commodi reprehenderit sed magni ut.
+                              </p>
+                              <a href="" class="button" style="margin: 0 auto"
+                                >SUBSCRIBE</a
+                              >
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td height="2" style="background-color: #000"></td>
+        </tr>
+        <tr>
+          <td style="background-color: rgb(225, 224, 224); color: #fff">
+            <table width="100%">
+              <tr>
+                <td>
+                  <tr>
+                    <td style="text-align: center">
+                      <a
+                        href="#"
+                        style="
+                          text-decoration: none;
+                          color: #222;
+                          font-size: 22px;
+                          font-family: 'Roboto', sans-serif;
+                          font-weight: 600;
+                        "
+                        >Movie Palooza
+                        <img
+                          src="./images/film-solid (1).png"
+                          alt=""
+                          style="padding-top: 5px"
+                      /></a>
+                      <p style="padding: none">
+                        123 Road, City, State 33333<br />2022 @Movie Palooza
+                        inc.
+                      </p>
+                    </td>
+                  </tr>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <tr>
+                    <td
+                      style="
+                        padding: 15px 20px;
+                        text-align: center;
+                        vertical-align: middle;
+                      "
+                    >
+                      <a href="#"
+                        ><img
+                          src="./images/facebook-brands (1).png"
+                          alt=""
+                          class="social"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          src="./images/twitter-brands.png"
+                          alt=""
+                          class="social"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          src="./images/youtube-brands.png"
+                          alt=""
+                          class="social"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          src="./images/instagram-square-brands (1).png"
+                          alt=""
+                          class="social"
+                      /></a>
+                    </td>
+                  </tr>
                 </td>
               </tr>
             </table>
